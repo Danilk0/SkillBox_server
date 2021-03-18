@@ -1,0 +1,6 @@
+D:\VS_2019\SkillChatServer\Debug\SkillChatServer.vcxproj.CopyComplete
+D:\VS_2019\SkillChatServer\Debug\SkillChatServer.exe
+D:\VS_2019\SkillChatServer\Debug\SkillChatServer.pdb
+D:\VS_2019\SkillChatServer\Debug\uSockets.dll
+D:\VS_2019\SkillChatServer\Debug\libuv.dll
+D:\VS_2019\SkillChatServer\Debug\zlibd1.dll

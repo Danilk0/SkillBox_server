@@ -1,0 +1,43 @@
+﻿  SkillChatServer.cpp
+D:\VS_2019\SkillChatServer\SkillChatServer.cpp(136,42): warning C4018: >: несоответствие типов со знаком и без знака
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\f2\function2.hpp(1342): message : выполняется компиляция ссылки на экземпляр шаблон функции "auto main::<lambda_2>::operator ()<uWS::WebSocket<false,true>>(_T1 *,std::string_view,uWS::OpCode) const"
+          with
+          [
+              _T1=uWS::WebSocket<false,true>
+          ]
+D:\VS_2019\SkillChatServer\SkillChatServer.cpp(107): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "fu2::abi_400::detail::accepts_one<main::<lambda_2>,void (uWS::WebSocket<false,true> *,std::string_view,uWS::OpCode),fu2::abi_400::detail::type_erasure::invocation_table::function_trait<First>>"
+          with
+          [
+              First=void (uWS::WebSocket<false,true> *,std::string_view,uWS::OpCode)
+          ]
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\f2\function2.hpp(1511): message : выполняется компиляция ссылки на экземпляр псевдоним шаблон функции "fu2::abi_400::detail::function<Config,fu2::abi_400::detail::property<IsThrowing,HasStrongExceptGuarantee,Args...>>::enable_if_can_accept_all_t<main::<lambda_2>>"
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(328,68): warning C4244: аргумент: преобразование "T" в "size_t", возможна потеря данных
+          with
+          [
+              T=uint64_t
+          ]
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(435): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>::consumeMessage<14,uint64_t>(T,char *&,unsigned int &,uWS::WebSocketState<true> *,void *)"
+          with
+          [
+              T=uint64_t
+          ]
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(435): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>::consumeMessage<14,uint64_t>(T,char *&,unsigned int &,uWS::WebSocketState<true> *,void *)"
+          with
+          [
+              T=uint64_t
+          ]
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(406): message : во время компиляции функции-члена класс шаблон "void uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>::consume(char *,unsigned int,uWS::WebSocketState<true> *,void *)"
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketContext.h(285): message : выполняется компиляция ссылки на экземпляр шаблон функции "void uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>::consume(char *,unsigned int,uWS::WebSocketState<true> *,void *)"
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketContext.h(285): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>"
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketContext.h(234): message : во время компиляции функции-члена класс шаблон "uWS::WebSocketContext<false,true> *uWS::WebSocketContext<false,true>::init(void)"
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketContext.h(389): message : выполняется компиляция ссылки на экземпляр шаблон функции "uWS::WebSocketContext<false,true> *uWS::WebSocketContext<false,true>::init(void)"
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\App.h(93): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "uWS::WebSocketContext<false,true>"
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\App.h(87): message : во время компиляции функции-члена класс шаблон "uWS::TemplatedApp<false>::~TemplatedApp(void)"
+D:\VS_2019\SkillChatServer\SkillChatServer.cpp(187): message : выполняется компиляция ссылки на экземпляр шаблон функции "uWS::TemplatedApp<false>::~TemplatedApp(void)"
+D:\VS_2019\SkillChatServer\SkillChatServer.cpp(107): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "uWS::TemplatedApp<false>"
+C:\Users\lenovo\vcpkg\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(332,64): warning C4244: аргумент: преобразование "T" в "size_t", возможна потеря данных
+          with
+          [
+              T=uint64_t
+          ]
+  SkillChatServer.vcxproj -> D:\VS_2019\SkillChatServer\Debug\SkillChatServer.exe
